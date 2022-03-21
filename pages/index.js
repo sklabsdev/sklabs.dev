@@ -4,6 +4,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Script from "next/script";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
@@ -24,221 +25,14 @@ export default function Home() {
         }}
       />
 
+      <Script
+        id="main-init"
+        strategy="afterInteractive"
+        src="/assets/js/main.js"
+      />
+
       <div>
-        {/* <!-- ====== Navbar Section Start --> */}
-        <div
-          className="
-        ud-header
-        bg-transparent
-        absolute
-        top-0
-        left-0
-        z-40
-        w-full
-        flex
-        items-center
-      "
-        >
-          <div className="container">
-            <div className="flex -mx-4 items-center justify-between relative">
-              <div className="px-4 w-60 max-w-full">
-                <a href="index.html" className="navbar-logo w-full block py-5">
-                  <img
-                    src="assets/images/logo/logo-white.svg"
-                    alt="logo"
-                    className="w-full header-logo"
-                  />
-                </a>
-              </div>
-              <div className="flex px-4 justify-between items-center w-full">
-                <div>
-                  <button
-                    id="navbarToggler"
-                    className="
-                  block
-                  absolute
-                  right-4
-                  top-1/2
-                  -translate-y-1/2
-                  lg:hidden
-                  focus:ring-2
-                  ring-primary
-                  px-3
-                  py-[6px]
-                  rounded-lg
-                "
-                  >
-                    <span className="relative w-[30px] h-[2px] my-[6px] block bg-white"></span>
-                    <span className="relative w-[30px] h-[2px] my-[6px] block bg-white"></span>
-                    <span className="relative w-[30px] h-[2px] my-[6px] block bg-white"></span>
-                  </button>
-                  <nav
-                    id="navbarCollapse"
-                    className="
-                  absolute
-                  py-5
-                  lg:py-0 lg:px-4
-                  xl:px-6
-                  bg-white
-                  lg:bg-transparent
-                  shadow-lg
-                  rounded-lg
-                  max-w-[250px]
-                  w-full
-                  lg:max-w-full lg:w-full
-                  right-4
-                  top-full
-                  hidden
-                  lg:block lg:static lg:shadow-none
-                "
-                  >
-                    <ul className="blcok lg:flex">
-                      <li className="relative group">
-                        <a
-                          href="#home"
-                          className="
-                        ud-menu-scroll
-                        text-base text-dark
-                        lg:text-white
-                        lg:group-hover:opacity-70
-                        lg:group-hover:text-white
-                        group-hover:text-primary
-                        py-2
-                        lg:py-6 lg:inline-flex lg:px-0
-                        flex
-                        mx-8
-                        lg:mr-0
-                      "
-                        >
-                          Home
-                        </a>
-                      </li>
-                      <li className="relative group">
-                        <a
-                          href="#about"
-                          className="
-                        ud-menu-scroll
-                        text-base text-dark
-                        lg:text-white
-                        lg:group-hover:opacity-70
-                        lg:group-hover:text-white
-                        group-hover:text-primary
-                        py-2
-                        lg:py-6 lg:inline-flex lg:px-0
-                        flex
-                        mx-8
-                        lg:mr-0 lg:ml-7
-                        xl:ml-12
-                      "
-                        >
-                          About
-                        </a>
-                      </li>
-                      <li className="relative group">
-                        <a
-                          href="#pricing"
-                          className="
-                        ud-menu-scroll
-                        text-base text-dark
-                        lg:text-white
-                        lg:group-hover:opacity-70
-                        lg:group-hover:text-white
-                        group-hover:text-primary
-                        py-2
-                        lg:py-6 lg:inline-flex lg:px-0
-                        flex
-                        mx-8
-                        lg:mr-0 lg:ml-7
-                        xl:ml-12
-                      "
-                        >
-                          Pricing
-                        </a>
-                      </li>
-                      <li className="relative group">
-                        <a
-                          href="#team"
-                          className="
-                        ud-menu-scroll
-                        text-base text-dark
-                        lg:text-white
-                        lg:group-hover:opacity-70
-                        lg:group-hover:text-white
-                        group-hover:text-primary
-                        py-2
-                        lg:py-6 lg:inline-flex lg:px-0
-                        flex
-                        mx-8
-                        lg:mr-0 lg:ml-7
-                        xl:ml-12
-                      "
-                        >
-                          Team
-                        </a>
-                      </li>
-                      <li className="relative group">
-                        <a
-                          href="#contact"
-                          className="
-                        ud-menu-scroll
-                        text-base text-dark
-                        lg:text-white
-                        lg:group-hover:opacity-70
-                        lg:group-hover:text-white
-                        group-hover:text-primary
-                        py-2
-                        lg:py-6 lg:inline-flex lg:px-0
-                        flex
-                        mx-8
-                        lg:mr-0 lg:ml-7
-                        xl:ml-12
-                      "
-                        >
-                          Contact
-                        </a>
-                      </li>
-                    </ul>
-                  </nav>
-                </div>
-                <div className="sm:flex justify-end hidden pr-16 lg:pr-0">
-                  <a
-                    href="signin.html"
-                    className="
-                  text-base
-                  font-medium
-                  text-white
-                  hover:opacity-70
-                  py-3
-                  px-7
-                  loginBtn
-                "
-                  >
-                    Sign In
-                  </a>
-                  <a
-                    href="signup.html"
-                    className="
-                  text-base
-                  font-medium
-                  text-white
-                  bg-white bg-opacity-20
-                  rounded-lg
-                  py-3
-                  px-6
-                  hover:bg-opacity-100 hover:text-dark
-                  signUpBtn
-                  duration-300
-                  ease-in-out
-                "
-                  >
-                    Sign Up
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* <!-- ====== Navbar Section End --> */}
+        <Header />
 
         {/* <!-- ====== Hero Section Start --> */}
         <div
@@ -272,7 +66,7 @@ export default function Home() {
                   mb-8
                 "
                   >
-                    Open-Source Web Template for SaaS, Startup, Apps, and More
+                    Powerful integrations for your productivity
                   </h1>
                   <p
                     className="
@@ -285,8 +79,8 @@ export default function Home() {
                   max-w-[600px]
                 "
                   >
-                    Multidisciplinary Web Template Built with Your Favourite
-                    Technology - HTML Bootstrap, Tailwind and React NextJS.
+                    We specialize in building powerful integrations for a number
+                    of platforms, such as LiveChat and Intercom.
                   </p>
                   <ul className="flex flex-wrap items-center justify-center mb-10">
                     <li>
@@ -5448,7 +5242,7 @@ export default function Home() {
                   <form>
                     <div className="mb-6">
                       <label
-                        hFmlfor="fullName"
+                        htmlFor="fullName"
                         className="block text-xs text-dark"
                       >
                         Full Name*
@@ -5505,7 +5299,7 @@ export default function Home() {
                     </div>
                     <div className="mb-6">
                       <label
-                        htFlfor="message"
+                        htmlFor="message"
                         className="block text-xs text-dark"
                       >
                         Message*
