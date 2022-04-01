@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+
 const SectionHero = () => {
   return (
     <div
@@ -74,11 +76,7 @@ const SectionHero = () => {
               data-wow-delay=".25s"
             >
               <div className="mt-16">
-                <img
-                  src="assets/images/hero/hero-image.png"
-                  alt="hero"
-                  className="max-w-full mx-auto rounded-t-xl rounded-tr-xl"
-                />
+                <img src="assets/images/hero/hero-image.png" alt="" />
               </div>
               <div className="absolute z-[-1] bottom-0 -left-9">
                 <svg
