@@ -1,6 +1,14 @@
 import Image from "next/image";
 
 const Footer = () => {
+  const handleLinkClick = (e) => {
+    e.preventDefault();
+    document.querySelector(e.target.getAttribute("href")).scrollIntoView({
+      behavior: "smooth",
+      offsetTop: 1 - 60,
+    });
+  };
+
   return (
     <footer
       className="bg-black pt-20 lg:pt-[120px] relative z-10 wow fadeInUp"
@@ -63,7 +71,8 @@ const Footer = () => {
               <ul>
                 <li>
                   <a
-                    href="javascript:void(0)"
+                    href="#home"
+                    onClick={handleLinkClick}
                     className="
                 inline-block
                 text-base text-[#f3f4fe]
@@ -77,7 +86,8 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="javascript:void(0)"
+                    href="#products"
+                    onClick={handleLinkClick}
                     className="
                 inline-block
                 text-base text-[#f3f4fe]
@@ -91,7 +101,8 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="javascript:void(0)"
+                    href="#team"
+                    onClick={handleLinkClick}
                     className="
                 inline-block
                 text-base text-[#f3f4fe]
@@ -105,7 +116,8 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="javascript:void(0)"
+                    href="#contact"
+                    onClick={handleLinkClick}
                     className="
                 inline-block
                 text-base text-[#f3f4fe]

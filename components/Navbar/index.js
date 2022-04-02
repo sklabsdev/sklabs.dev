@@ -4,6 +4,7 @@ import { useScrollPosition } from "@n8tb1t/use-scroll-position";
 
 const Header = () => {
   const [isSticky, setIsSticky] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useScrollPosition(
     ({ currPos }) => {
@@ -12,6 +13,19 @@ const Header = () => {
     },
     [isSticky]
   );
+
+  const handleLinkClick = (e) => {
+    e.preventDefault();
+    setIsMobileMenuOpen(false);
+    document.querySelector(e.target.getAttribute("href")).scrollIntoView({
+      behavior: "smooth",
+      offsetTop: 1 - 60,
+    });
+  };
+
+  const handleNavbarToggler = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
 
   return useMemo(
     () => (
@@ -51,8 +65,9 @@ const Header = () => {
               <div className="flex px-4 justify-between items-center w-full">
                 <div>
                   <button
+                    onClick={handleNavbarToggler}
                     id="navbarToggler"
-                    className="
+                    className={`
                   block
                   absolute
                   right-4
@@ -64,7 +79,8 @@ const Header = () => {
                   px-3
                   py-[6px]
                   rounded-lg
-                "
+                  ${isMobileMenuOpen ? "navbarTogglerActive" : ""}
+                `}
                   >
                     <span className="relative w-[30px] h-[2px] my-[6px] block bg-white"></span>
                     <span className="relative w-[30px] h-[2px] my-[6px] block bg-white"></span>
@@ -72,7 +88,7 @@ const Header = () => {
                   </button>
                   <nav
                     id="navbarCollapse"
-                    className="
+                    className={`
                   absolute
                   py-5
                   lg:py-0 lg:px-4
@@ -85,15 +101,16 @@ const Header = () => {
                   w-full
                   lg:max-w-full lg:w-full
                   right-4
-                  top-full
-                  hidden
+                  top-full                  
                   lg:block lg:static lg:shadow-none
-                "
+                  ${isMobileMenuOpen ? "" : "hidden"}
+                `}
                   >
                     <ul className="blcok lg:flex">
                       <li className="relative group">
                         <a
                           href="#home"
+                          onClick={handleLinkClick}
                           className="
                         ud-menu-scroll
                         text-base text-dark
@@ -114,6 +131,7 @@ const Header = () => {
                       <li className="relative group">
                         <a
                           href="#products"
+                          onClick={handleLinkClick}
                           className="
                         ud-menu-scroll
                         text-base text-dark
@@ -136,6 +154,7 @@ const Header = () => {
                       <li className="relative group">
                         <a
                           href="#team"
+                          onClick={handleLinkClick}
                           className="
                         ud-menu-scroll
                         text-base text-dark
@@ -157,6 +176,7 @@ const Header = () => {
                       <li className="relative group">
                         <a
                           href="#contact"
+                          onClick={handleLinkClick}
                           className="
                         ud-menu-scroll
                         text-base text-dark
@@ -184,7 +204,7 @@ const Header = () => {
         </div>
       </div>
     ),
-    [isSticky]
+    [isSticky, isMobileMenuOpen]
   );
 };
 

@@ -43,13 +43,14 @@ export default function Home() {
         <Navbar />
         <SectionHero />
         <SectionProducts />
+
         <SectionArticle
-          id="success"
-          title="Success Story"
-          header="How SKlabs reached $1k MRR and where they get app ideas"
-          body="SKlabs is the author of seven apps, which are available on the LiveChat Marketplace. Last year, they reached the milestone of $1,000 Monthly Recurring Revenue (MRR) and are close to repeating it this year too."
-          imageUrl="assets/images/articles/success-story.png"
-          link="https://developers.livechat.com/updates/livechat-developer-case-study-sklabs"
+          id="notifications"
+          title="Sending Notifications"
+          header="We specialize with sending notifications to various channels and manage them all from one place"
+          body="Try our Ping integration that allow you to send notifications about chat events to popular channels like: Slack, Microsoft Teams, Discord, SMS and email."
+          imageUrl="assets/images/articles/notifications.png"
+          link="https://www.livechat.com/marketplace/apps/ping"
         />
 
         <SectionTeam />
