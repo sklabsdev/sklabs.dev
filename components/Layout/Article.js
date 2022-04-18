@@ -2,7 +2,6 @@ import Head from "next/head";
 import { MDXProvider } from "@mdx-js/react";
 import Navbar from "../Navbar";
 import SectionHeader from "../SectionHeader";
-import SectionContact from "../SectionContact";
 import Footer from "../Footer";
 import BackToTop from "../BackToTop";
 import MDXComponents from "../MDXComponents";
@@ -28,8 +27,6 @@ export default function Page({ meta, children }) {
             <MDXProvider components={MDXComponents}>{children}</MDXProvider>
           </div>
         </section>
-
-        <SectionContact />
 
         <Footer />
         <BackToTop />

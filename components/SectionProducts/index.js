@@ -48,6 +48,12 @@ const products = {
       description: "Manage your Trello cards without leaving the chat.",
       link: "https://www.livechat.com/marketplace/apps/trello-for-livechat/",
     },
+    {
+      name: "PayPal",
+      logo: "assets/images/apps/livechat/paypal.png",
+      description: "Manage your PayPal payments inside LiveChat.",
+      link: "https://www.livechat.com/marketplace/apps/paypal/",
+    },
   ],
   intercom: [
     {
