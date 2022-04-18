@@ -2,14 +2,14 @@
 const SectionApp = ({ app }) => {
   return (
     <div
-      className="bg-white mb-12 group wow fadeInUp flex flex-col justify-between grow"
+      className="bg-white mb-12 group wow fadeInUp flex flex-col justify-between grow rounded-md border border-gray-200 p-5"
       data-wow-delay=".1s"
     >
       <div className="">
         <div
           className="
-                  w-[70px]
-                  h-[70px]
+                  w-[60px]
+                  h-[60px]
                   flex
                   items-center
                   justify-center
@@ -22,7 +22,7 @@ const SectionApp = ({ app }) => {
           <img
             src={app.logo}
             alt={`${app.name} logo`}
-            className="h-[70px] w-[70px]"
+            className="h-[60px] w-[60px]"
           />
         </div>
         <h4 className="font-bold text-xl text-dark mb-3">{app.name}</h4>

@@ -5,7 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Script from "next/script";
 import Navbar from "../components/Navbar";
-import SectionHero from "../components/SectionHero";
+import SectionHeader from "../components/SectionHeader";
 import SectionProducts from "../components/SectionProducts";
 import SectionArticle from "../components/SectionArticle";
 import SectionTeam from "../components/SectionTeam";
@@ -41,7 +41,34 @@ export default function Home() {
 
       <div>
         <Navbar />
-        <SectionHero />
+        <SectionHeader
+          header="Powerful integrations for your productivity"
+          subheader={
+            <>
+              We specialize in building powerful integrations for a number of
+              platforms, such as{" "}
+              <a
+                href="https://www.livechat.com/marketplace/"
+                target="_blank"
+                rel="noreferrer"
+                className="text-white hover:opacity-70"
+              >
+                LiveChat
+              </a>{" "}
+              and{" "}
+              <a
+                href="https://www.intercom.com/app-store"
+                target="_blank"
+                rel="noreferrer"
+                className="text-white hover:opacity-70"
+              >
+                Intercom
+              </a>
+              .
+            </>
+          }
+          imageUrl="assets/images/hero/hero-image.png"
+        />
         <SectionProducts />
 
         <SectionArticle

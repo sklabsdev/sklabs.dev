@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   const handleLinkClick = (e) => {
@@ -18,10 +19,7 @@ const Footer = () => {
         <div className="flex flex-wrap -mx-4">
           <div className="w-full sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12 px-4">
             <div className="w-full mb-10">
-              <a
-                href="javascript:void(0)"
-                className="inline-block max-w-[160px] mb-6"
-              >
+              <a href="/" className="inline-block max-w-[160px] mb-6">
                 <Image
                   width={160}
                   height={62}
@@ -137,32 +135,34 @@ const Footer = () => {
               <h4 className="text-white text-lg font-semibold mb-9">Legal</h4>
               <ul>
                 <li>
-                  <a
-                    href="javascript:void(0)"
-                    className="
+                  <Link href="/privacy-policy">
+                    <a
+                      className="
                 inline-block
                 text-base text-[#f3f4fe]
                 hover:text-primary
                 leading-loose
                 mb-2
               "
-                  >
-                    Privacy policy
-                  </a>
+                    >
+                      Privacy policy
+                    </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="javascript:void(0)"
-                    className="
+                  <Link href="/terms">
+                    <a
+                      className="
                 inline-block
                 text-base text-[#f3f4fe]
                 hover:text-primary
                 leading-loose
                 mb-2
               "
-                  >
-                    Terms of Service
-                  </a>
+                    >
+                      Terms of Service
+                    </a>
+                  </Link>
                 </li>
               </ul>
             </div>

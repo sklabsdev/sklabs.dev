@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/83ff6c52-aba2-4933-9201-48c12ce0e3d9/deploy-status)](https://app.netlify.com/sites/sklabs-dev/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cc2d89d2-d6f4-459f-8c3a-7b6bd654e5ee/deploy-status)](https://app.netlify.com/sites/sklabs-dev/deploys)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

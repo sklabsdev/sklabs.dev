@@ -1,8 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import { useState, useEffect, useRef, useMemo } from "react";
+import Link from "next/link";
 import { useScrollPosition } from "@n8tb1t/use-scroll-position";
 
-const Header = () => {
+const Navbar = ({ isLandingPage }) => {
   const [isSticky, setIsSticky] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -15,12 +16,16 @@ const Header = () => {
   );
 
   const handleLinkClick = (e) => {
-    e.preventDefault();
-    setIsMobileMenuOpen(false);
-    document.querySelector(e.target.getAttribute("href")).scrollIntoView({
-      behavior: "smooth",
-      offsetTop: 1 - 60,
-    });
+    if (!isLandingPage) {
+      e.preventDefault();
+      setIsMobileMenuOpen(false);
+      const href = e.target.getAttribute("href").replace("/", "");
+
+      document.querySelector(href).scrollIntoView({
+        behavior: "smooth",
+        offsetTop: 1 - 60,
+      });
+    }
   };
 
   const handleNavbarToggler = () => {
@@ -46,21 +51,23 @@ const Header = () => {
           <div className="container">
             <div className="flex -mx-4 items-center justify-between relative">
               <div className="px-4 w-60 max-w-full">
-                <a href="index.html" className="navbar-logo w-full block py-5">
-                  {isSticky ? (
-                    <img
-                      src="assets/images/logo/logo.svg"
-                      alt="logo"
-                      className="w-full header-logo"
-                    />
-                  ) : (
-                    <img
-                      src="assets/images/logo/logo-white.svg"
-                      alt="logo"
-                      className="w-full header-logo"
-                    />
-                  )}
-                </a>
+                <Link href="/">
+                  <a className="navbar-logo w-full block py-5">
+                    {isSticky ? (
+                      <img
+                        src="assets/images/logo/logo.svg"
+                        alt="logo"
+                        className="w-full header-logo"
+                      />
+                    ) : (
+                      <img
+                        src="assets/images/logo/logo-white.svg"
+                        alt="logo"
+                        className="w-full header-logo"
+                      />
+                    )}
+                  </a>
+                </Link>
               </div>
               <div className="flex px-4 justify-between items-center w-full">
                 <div>
@@ -108,10 +115,10 @@ const Header = () => {
                   >
                     <ul className="blcok lg:flex">
                       <li className="relative group">
-                        <a
-                          href="#home"
-                          onClick={handleLinkClick}
-                          className="
+                        <Link href="/#home" passHref>
+                          <a
+                            onClick={handleLinkClick}
+                            className="
                         ud-menu-scroll
                         text-base text-dark
                         lg:text-white
@@ -124,15 +131,16 @@ const Header = () => {
                         mx-8
                         lg:mr-0
                       "
-                        >
-                          Home
-                        </a>
+                          >
+                            Home
+                          </a>
+                        </Link>
                       </li>
                       <li className="relative group">
-                        <a
-                          href="#products"
-                          onClick={handleLinkClick}
-                          className="
+                        <Link href="/#products" passHref>
+                          <a
+                            onClick={handleLinkClick}
+                            className="
                         ud-menu-scroll
                         text-base text-dark
                         lg:text-white
@@ -146,16 +154,17 @@ const Header = () => {
                         lg:mr-0 lg:ml-7
                         xl:ml-12
                       "
-                        >
-                          Products
-                        </a>
+                          >
+                            Products
+                          </a>
+                        </Link>
                       </li>
 
                       <li className="relative group">
-                        <a
-                          href="#team"
-                          onClick={handleLinkClick}
-                          className="
+                        <Link href="/#team" passHref>
+                          <a
+                            onClick={handleLinkClick}
+                            className="
                         ud-menu-scroll
                         text-base text-dark
                         lg:text-white
@@ -169,15 +178,16 @@ const Header = () => {
                         lg:mr-0 lg:ml-7
                         xl:ml-12
                       "
-                        >
-                          Team
-                        </a>
+                          >
+                            Team
+                          </a>
+                        </Link>
                       </li>
                       <li className="relative group">
-                        <a
-                          href="#contact"
-                          onClick={handleLinkClick}
-                          className="
+                        <Link href="#contact" passHref>
+                          <a
+                            onClick={handleLinkClick}
+                            className="
                         ud-menu-scroll
                         text-base text-dark
                         lg:text-white
@@ -191,9 +201,10 @@ const Header = () => {
                         lg:mr-0 lg:ml-7
                         xl:ml-12
                       "
-                        >
-                          Contact
-                        </a>
+                          >
+                            Contact
+                          </a>
+                        </Link>
                       </li>
                     </ul>
                   </nav>
@@ -208,4 +219,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;

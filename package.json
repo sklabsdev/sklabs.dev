@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mdx-js/loader": "^2.1.1",
     "@n8tb1t/use-scroll-position": "^2.0.3",
+    "@next/mdx": "^12.1.5",
     "next": "12.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
