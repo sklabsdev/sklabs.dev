@@ -1,0 +1,21 @@
+[[redirects]]
+  from = "/p/zoom-for-livechat"
+  to = "https://docs.sklabs.dev/livechat-apps/zoom-for-livechat"
+  status = 301
+
+[[redirects]]
+  from = "/p/privacy"
+  to = "/privacy-policy"
+  status = 301
+
+[[redirects]]
+  from = "/p/terms"
+  to = "/terms"
+  status = 301
+
+[[redirects]]
+  from = "/p/support"
+  to = "/support"
+  status = 301
+
+
