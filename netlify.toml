@@ -4,6 +4,41 @@
   status = 301
 
 [[redirects]]
+  from = "/p/github-for-livechat"
+  to = "https://docs.sklabs.dev/livechat-apps/github-for-livechat"
+  status = 301
+
+[[redirects]]
+  from = "/p/gotomeeting-for-livechat"
+  to = "https://docs.sklabs.dev/livechat-apps/gotomeeting-for-livechat"
+  status = 301
+
+[[redirects]]
+  from = "/p/ping"
+  to = "https://docs.sklabs.dev/livechat-apps/ping"
+  status = 301
+
+[[redirects]]
+  from = "/p/discord"
+  to = "https://docs.sklabs.dev/livechat-apps/discord"
+  status = 301
+
+[[redirects]]
+  from = "/p/microsoft-teams"
+  to = "https://docs.sklabs.dev/livechat-apps/microsoft-teams"
+  status = 301
+
+[[redirects]]
+  from = "/p/paypal"
+  to = "https://docs.sklabs.dev/livechat-apps/paypal"
+  status = 301
+
+[[redirects]]
+  from = "/p/trello-for-livechat"
+  to = "https://docs.sklabs.dev/livechat-apps/trello-for-livechat"
+  status = 301
+
+[[redirects]]
   from = "/p/privacy"
   to = "/privacy-policy"
   status = 301
