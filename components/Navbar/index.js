@@ -55,13 +55,13 @@ const Navbar = ({ isLandingPage }) => {
                   <a className="navbar-logo w-full block py-5">
                     {isSticky ? (
                       <img
-                        src="assets/images/logo/logo.svg"
+                        src="/assets/images/logo/logo.svg"
                         alt="logo"
                         className="w-full header-logo"
                       />
                     ) : (
                       <img
-                        src="assets/images/logo/logo-white.svg"
+                        src="/assets/images/logo/logo-white.svg"
                         alt="logo"
                         className="w-full header-logo"
                       />

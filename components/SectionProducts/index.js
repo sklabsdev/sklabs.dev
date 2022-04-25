@@ -60,7 +60,7 @@ const products = {
       name: "Zoom Meetings",
       logo: "assets/images/apps/livechat/zoom.png",
       description:
-        "Start a video call from the Messenger and help your customers solve their problems.",
+        "Start a video call from the conversations and help your customers.",
       link: "https://www.intercom.com/app-store/?app_package_code=zoom-meetings",
     },
   ],
