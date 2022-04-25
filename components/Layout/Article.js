@@ -1,22 +1,17 @@
-import Head from "next/head";
 import { MDXProvider } from "@mdx-js/react";
+import Header from "../Header";
 import Navbar from "../Navbar";
 import SectionHeader from "../SectionHeader";
 import Footer from "../Footer";
-import BackToTop from "../BackToTop";
 import MDXComponents from "../MDXComponents";
 
 export default function Page({ meta, children }) {
   return (
     <div>
-      <Head>
-        <title>SKlabs | {meta.title}</title>
-        <meta name="description" content={meta.description} />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Header title={meta.title} description={meta.description} />
 
       <div>
-        <Navbar />
+        <Navbar isLandingPage />
         <SectionHeader header={meta.title} />
 
         <section
@@ -29,7 +24,6 @@ export default function Page({ meta, children }) {
         </section>
 
         <Footer />
-        <BackToTop />
       </div>
     </div>
   );
