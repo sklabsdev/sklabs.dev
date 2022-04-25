@@ -131,6 +131,22 @@ const Footer = () => {
                     Team
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="https://docs.sklabs.dev"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="
+                inline-block
+                text-base text-[#f3f4fe]
+                hover:text-primary
+                leading-loose
+                mb-2
+              "
+                  >
+                    Docs
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
@@ -315,38 +331,6 @@ const Footer = () => {
                   </a>
                 </li>
               </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="border-t border-opacity-40 py-8 mt-12 lg:mt-[60px]">
-        <div className="container">
-          <div className="flex flex-wrap -mx-4">
-            <div className="w-full md:w-2/3 lg:w-1/2 px-4">
-              <div className="my-1">
-                <div
-                  className="
-              flex
-              items-center
-              justify-center
-              md:justify-start
-              -mx-3
-            "
-                >
-                  <p className="text-base text-[#f3f4fe]">
-                    Designed and Developed by
-                    <a
-                      href="https://tailgrids.com"
-                      rel="noreferrer"
-                      target="_blank"
-                      className="text-primary hover:underline"
-                    >
-                      TailGrids and UIdeck
-                    </a>
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
