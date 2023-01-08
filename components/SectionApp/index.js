@@ -28,14 +28,17 @@ const SectionApp = ({ app }) => {
         <h4 className="font-bold text-xl text-dark mb-3">{app.name}</h4>
         <p className="text-body-color mb-8 lg:mb-11">{app.description}</p>
       </div>
-      <a
-        href={app.link}
-        className="font-medium text-base text-body-color hover:text-primary"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Learn More
-      </a>
+
+      {app.link && (
+        <a
+          href={app.link}
+          className="font-medium text-base text-body-color hover:text-primary"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Learn More
+        </a>
+      )}
     </div>
   );
 };

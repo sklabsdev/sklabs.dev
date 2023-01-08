@@ -30,19 +30,6 @@ const products = {
       link: "https://www.livechat.com/marketplace/apps/ping/",
     },
     {
-      name: "GoToMeeting for LiveChat",
-      logo: "assets/images/apps/livechat/gotomeeting.png",
-      description:
-        "Create an online meeting directly from the chat and support your customers.",
-      link: "https://www.livechat.com/marketplace/apps/gotomeeting-for-livechat/",
-    },
-    {
-      name: "GitHub for LiveChat",
-      logo: "assets/images/apps/livechat/github.png",
-      description: "Manage your GitHub issues without leaving the chat.",
-      link: "https://www.livechat.com/marketplace/apps/github-for-livechat/",
-    },
-    {
       name: "Trello for LiveChat",
       logo: "assets/images/apps/livechat/trello.png",
       description: "Manage your Trello cards without leaving the chat.",
@@ -53,6 +40,13 @@ const products = {
       logo: "assets/images/apps/livechat/paypal.png",
       description: "Manage your PayPal payments inside LiveChat.",
       link: "https://www.livechat.com/marketplace/apps/paypal/",
+    },
+    {
+      name: "Chat Summary (coming soon)",
+      logo: "assets/images/apps/livechat/chat-summary.png",
+      description:
+        "Using an artificial intelligence OpenAI generate summary from the chat.",
+      // link: "https://www.livechat.com/marketplace/apps/chat-summary/",
     },
   ],
   intercom: [
