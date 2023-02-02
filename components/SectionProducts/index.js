@@ -30,12 +30,6 @@ const products = {
       link: "https://www.livechat.com/marketplace/apps/ping/",
     },
     {
-      name: "Trello for LiveChat",
-      logo: "assets/images/apps/livechat/trello.png",
-      description: "Manage your Trello cards without leaving the chat.",
-      link: "https://www.livechat.com/marketplace/apps/trello-for-livechat/",
-    },
-    {
       name: "PayPal",
       logo: "assets/images/apps/livechat/paypal.png",
       description: "Manage your PayPal payments inside LiveChat.",

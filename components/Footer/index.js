@@ -259,7 +259,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="https://www.livechat.com/marketplace/apps/gotomeeting-for-livechat/"
+                    href="https://www.livechat.com/marketplace/apps/chat-summary/"
                     target="_blank"
                     rel="noreferrer"
                     className="
@@ -270,39 +270,7 @@ const Footer = () => {
                 mb-2
               "
                   >
-                    GoToMeeting for LiveChat
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.livechat.com/marketplace/apps/github-for-livechat/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="
-                inline-block
-                text-base text-[#f3f4fe]
-                hover:text-primary
-                leading-loose
-                mb-2
-              "
-                  >
-                    GitHub for LiveChat
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.livechat.com/marketplace/apps/trello-for-livechat/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="
-                inline-block
-                text-base text-[#f3f4fe]
-                hover:text-primary
-                leading-loose
-                mb-2
-              "
-                  >
-                    Trello for LiveChat
+                    Chat Summary
                   </a>
                 </li>
               </ul>
