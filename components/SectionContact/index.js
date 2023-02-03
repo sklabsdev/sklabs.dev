@@ -44,11 +44,11 @@ const SectionContact = () => {
                     </h5>
                     <p className="text-base text-body-color">
                       <a
-                        href="mailto:hey@sklabs.dev"
+                        href="mailto:support@sklabs.dev"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        hey@sklabs.dev
+                        support@sklabs.dev
                       </a>
                     </p>
                   </div>

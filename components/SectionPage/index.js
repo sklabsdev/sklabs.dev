@@ -300,8 +300,8 @@ const SectionPage = () => {
                   <SectionPageParagraph>
                     If you have questions about exercising these rights or need
                     assistance, please contact us at{" "}
-                    <a href="mailto:hey@sklabs.dev">hey@sklabs.dev</a>. For
-                    requests to delete personal information or know what
+                    <a href="mailto:support@sklabs.dev">support@sklabs.dev</a>.
+                    For requests to delete personal information or know what
                     personal information has been collected, we will first
                     verify your identity using a combination of at least two
                     pieces of information already collected including your user
@@ -368,7 +368,8 @@ const SectionPage = () => {
                     complaints about your privacy and our collection or use of
                     your personal information. European Union, United Kingdom,
                     or Swiss individuals with inquiries or complaints regarding
-                    this privacy policy should contact SKlabs at hey@sklabs.dev.
+                    this privacy policy should contact SKlabs at
+                    support@sklabs.dev.
                   </SectionPageParagraph>
 
                   <SectionPageParagraph>
@@ -398,8 +399,8 @@ const SectionPage = () => {
                     Have any questions, comments, or concerns about this privacy
                     policy, your data, or your rights with respect to your
                     information? Please get in touch by emailing us at{" "}
-                    <a href="mailto:hey@sklabs.dev">hey@sklabs.dev</a> and we’ll
-                    be happy to answer them!
+                    <a href="mailto:support@sklabs.dev">support@sklabs.dev</a>{" "}
+                    and we’ll be happy to answer them!
                   </SectionPageParagraph>
                 </div>
               </div>
