@@ -2,8 +2,8 @@ import Head from "next/head";
 import Script from "next/script";
 
 const Header = ({
-  title = "Powerful integrations for your productivity with LiveChat and Intercom",
-  description = "Powerful integrations for your productivity with LiveChat and Intercom",
+  title = "Unlock Your Productivity with Powerful Integrations",
+  description = "Unlock Your Productivity with Powerful Integrations",
 }) => {
   return (
     <>

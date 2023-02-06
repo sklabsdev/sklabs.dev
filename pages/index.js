@@ -14,11 +14,10 @@ export default function Home() {
       <div>
         <Navbar />
         <SectionHeader
-          header="Powerful integrations for your productivity"
+          header="Unlock Your Productivity with Powerful Integrations"
           subheader={
             <>
-              We specialize in building powerful integrations for a number of
-              platforms, such as{" "}
+              We specialize in building integrations for {" "}
               <a
                 href="https://www.livechat.com/marketplace/"
                 target="_blank"
@@ -26,17 +25,7 @@ export default function Home() {
                 className="text-white hover:opacity-70"
               >
                 LiveChat
-              </a>{" "}
-              and{" "}
-              <a
-                href="https://www.intercom.com/app-store"
-                target="_blank"
-                rel="noreferrer"
-                className="text-white hover:opacity-70"
-              >
-                Intercom
-              </a>
-              .
+              </a>.
             </>
           }
           imageUrl="assets/images/hero/hero-image.png"

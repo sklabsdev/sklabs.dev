@@ -29,8 +29,7 @@ const Footer = () => {
                 />
               </a>
               <p className="text-base text-[#f3f4fe] mb-7">
-                We specialize in building powerful integrations for a number of
-                platforms, such as LiveChat and Intercom.
+                We specialize in building integrations for LiveChat.
               </p>
               <div className="flex items-center -mx-3 mb-5">
                 <a
@@ -43,19 +42,6 @@ const Footer = () => {
                     width={20}
                     height={20}
                     src="/assets/images/products/livechat.png"
-                    alt="logo"
-                  />
-                </a>
-                <a
-                  href="https://www.intercom.com/app-store"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="px-3 text-[#dddddd] hover:text-white"
-                >
-                  <Image
-                    width={20}
-                    height={20}
-                    src="/assets/images/products/intercom.png"
                     alt="logo"
                   />
                 </a>
@@ -271,31 +257,6 @@ const Footer = () => {
               "
                   >
                     Chat Summary
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="w-full md:w-2/3 lg:w-6/12 xl:w-3/12 px-4">
-            <div className="w-full mb-10">
-              <h4 className="text-white text-lg font-semibold mb-9">
-                Intercom Products
-              </h4>
-              <ul>
-                <li>
-                  <a
-                    href="https://www.intercom.com/app-store/?app_package_code=zoom-meetings"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="
-                inline-block
-                text-base text-[#f3f4fe]
-                hover:text-primary
-                leading-loose
-                mb-2
-              "
-                  >
-                    Zoom Meetings
                   </a>
                 </li>
               </ul>

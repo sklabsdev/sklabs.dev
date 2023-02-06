@@ -43,15 +43,6 @@ const products = {
       // link: "https://www.livechat.com/marketplace/apps/chat-summary/",
     },
   ],
-  intercom: [
-    {
-      name: "Zoom Meetings",
-      logo: "assets/images/apps/livechat/zoom.png",
-      description:
-        "Start a video call from the conversations and help your customers.",
-      link: "https://www.intercom.com/app-store/?app_package_code=zoom-meetings",
-    },
-  ],
 };
 
 const SectionProducts = () => {
@@ -79,7 +70,7 @@ const SectionProducts = () => {
                 2xl:text-[40px]
                 sm:leading-snug
                 text-dark
-                
+
                 "
                 >
                   LiveChat Marketplace
@@ -91,44 +82,6 @@ const SectionProducts = () => {
 
         <div className="flex flex-wrap -mx-4">
           {products.livechat.map((app) => (
-            <div
-              className="w-full md:w-1/2 lg:w-1/4 px-4 flex flex-col"
-              key={`app-${app.name}`}
-            >
-              <SectionApp app={app} />
-            </div>
-          ))}
-        </div>
-
-        <div className="flex flex-wrap -mx-4">
-          <div className="w-full px-4">
-            <div className="mb-12 lg:mb-10 max-w-[620px]">
-              <div className="flex items-center mb-6">
-                <img
-                  src="assets/images/products/intercom.png"
-                  alt="livechat logo"
-                  className="h-9 mr-2"
-                />
-                <h2
-                  className="
-                font-bold
-                text-3xl
-                sm:text-4xl
-                2xl:text-[40px]
-                sm:leading-snug
-                text-dark
-                
-                "
-                >
-                  Intercom App Store
-                </h2>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="flex flex-wrap -mx-4">
-          {products.intercom.map((app) => (
             <div
               className="w-full md:w-1/2 lg:w-1/4 px-4 flex flex-col"
               key={`app-${app.name}`}
