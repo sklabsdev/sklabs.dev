@@ -58,13 +58,13 @@ const Navbar = ({ isLandingPage }) => {
                       <img
                         src="/assets/images/logo/logo.svg"
                         alt="logo"
-                        className="w-full header-logo"
+                        className="w-full max-h-10 header-logo"
                       />
                     ) : (
                       <img
                         src="/assets/images/logo/logo-white.svg"
                         alt="logo"
-                        className="w-full header-logo"
+                        className="w-full max-h-10 header-logo"
                       />
                     )}
                   </a>
@@ -109,7 +109,7 @@ const Navbar = ({ isLandingPage }) => {
                   w-full
                   lg:max-w-full lg:w-full
                   right-4
-                  top-full                  
+                  top-full
                   lg:block lg:static lg:shadow-none
                   ${isMobileMenuOpen ? "" : "hidden"}
                 `}
