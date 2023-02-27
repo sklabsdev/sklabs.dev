@@ -36,11 +36,11 @@ const products = {
       link: "https://www.livechat.com/marketplace/apps/paypal/",
     },
     {
-      name: "Chat Summary (coming soon)",
+      name: "Chat Summary",
       logo: "assets/images/apps/livechat/chat-summary.png",
       description:
         "Using an artificial intelligence OpenAI generate summary from the chat.",
-      // link: "https://www.livechat.com/marketplace/apps/chat-summary/",
+      link: "https://www.livechat.com/marketplace/apps/chat-summary/",
     },
   ],
 };
