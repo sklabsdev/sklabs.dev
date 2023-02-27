@@ -29,29 +29,18 @@ const Footer = () => {
                 />
               </a>
               <p className="text-base text-[#f3f4fe] mb-7">
-                We specialize in building integrations for LiveChat.
+                SKlabs Software Ltd <br />
+                86-90, Paul Street, <br />
+                London EC2A 4NE,<br />
+                United Kingdom.
+                <br />
+                <br />
+                Company number: 14676957
               </p>
-              <div className="flex items-center -mx-3 mb-5">
-                <a
-                  href="https://www.livechat.com/marketplace/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="px-3 text-[#dddddd] hover:text-white"
-                >
-                  <Image
-                    width={20}
-                    height={20}
-                    src="/assets/images/products/livechat.png"
-                    alt="logo"
-                  />
-                </a>
-              </div>
               <div className="flex items-center">
                 <svg
-                  width="34"
-                  height="25"
                   viewBox="0 0 34 25"
-                  className="fill-current text-white"
+                  className="fill-current text-white w-6 h-auto"
                 >
                   <path d="M30.5156 0.960938H3.17188C1.42188 0.960938 0 2.38281 0 4.13281V20.9219C0 22.6719 1.42188 24.0938 3.17188 24.0938H30.5156C32.2656 24.0938 33.6875 22.6719 33.6875 20.9219V4.13281C33.6875 2.38281 32.2656 0.960938 30.5156 0.960938ZM30.5156 2.875C30.7891 2.875 31.0078 2.92969 31.2266 3.09375L17.6094 11.3516C17.1172 11.625 16.5703 11.625 16.0781 11.3516L2.46094 3.09375C2.67969 2.98438 2.89844 2.875 3.17188 2.875H30.5156ZM30.5156 22.125H3.17188C2.51562 22.125 1.91406 21.5781 1.91406 20.8672V5.00781L15.0391 12.9922C15.5859 13.3203 16.1875 13.4844 16.7891 13.4844C17.3906 13.4844 17.9922 13.3203 18.5391 12.9922L31.6641 5.00781V20.8672C31.7734 21.5781 31.1719 22.125 30.5156 22.125Z" />
                 </svg>
@@ -77,12 +66,12 @@ const Footer = () => {
                     href="#home"
                     onClick={handleLinkClick}
                     className="
-                inline-block
-                text-base text-[#f3f4fe]
-                hover:text-primary
-                leading-loose
-                mb-2
-              "
+                      inline-block
+                      text-base text-[#f3f4fe]
+                      hover:text-primary
+                      leading-loose
+                      mb-2
+                    "
                   >
                     Home
                   </a>
@@ -92,12 +81,12 @@ const Footer = () => {
                     href="#products"
                     onClick={handleLinkClick}
                     className="
-                inline-block
-                text-base text-[#f3f4fe]
-                hover:text-primary
-                leading-loose
-                mb-2
-              "
+                      inline-block
+                      text-base text-[#f3f4fe]
+                      hover:text-primary
+                      leading-loose
+                      mb-2
+                    "
                   >
                     Products
                   </a>
@@ -107,12 +96,12 @@ const Footer = () => {
                     href="#team"
                     onClick={handleLinkClick}
                     className="
-                inline-block
-                text-base text-[#f3f4fe]
-                hover:text-primary
-                leading-loose
-                mb-2
-              "
+                      inline-block
+                      text-base text-[#f3f4fe]
+                      hover:text-primary
+                      leading-loose
+                      mb-2
+                    "
                   >
                     Team
                   </a>
@@ -123,14 +112,14 @@ const Footer = () => {
                     target="_blank"
                     rel="noreferrer"
                     className="
-                inline-block
-                text-base text-[#f3f4fe]
-                hover:text-primary
-                leading-loose
-                mb-2
-              "
+                      inline-block
+                      text-base text-[#f3f4fe]
+                      hover:text-primary
+                      leading-loose
+                      mb-2
+                    "
                   >
-                    Docs
+                    Documentation
                   </a>
                 </li>
               </ul>
@@ -144,14 +133,14 @@ const Footer = () => {
                   <Link href="/privacy-policy">
                     <a
                       className="
-                inline-block
-                text-base text-[#f3f4fe]
-                hover:text-primary
-                leading-loose
-                mb-2
-              "
+                        inline-block
+                        text-base text-[#f3f4fe]
+                        hover:text-primary
+                        leading-loose
+                        mb-2
+                      "
                     >
-                      Privacy policy
+                      Privacy Policy
                     </a>
                   </Link>
                 </li>
@@ -159,12 +148,12 @@ const Footer = () => {
                   <Link href="/terms">
                     <a
                       className="
-                inline-block
-                text-base text-[#f3f4fe]
-                hover:text-primary
-                leading-loose
-                mb-2
-              "
+                        inline-block
+                        text-base text-[#f3f4fe]
+                        hover:text-primary
+                        leading-loose
+                        mb-2
+                      "
                     >
                       Terms of Service
                     </a>
@@ -185,12 +174,12 @@ const Footer = () => {
                     target="_blank"
                     rel="noreferrer"
                     className="
-                inline-block
-                text-base text-[#f3f4fe]
-                hover:text-primary
-                leading-loose
-                mb-2
-              "
+                      inline-block
+                      text-base text-[#f3f4fe]
+                      hover:text-primary
+                      leading-loose
+                      mb-2
+                    "
                   >
                     Zoom for LiveChat
                   </a>
@@ -201,12 +190,12 @@ const Footer = () => {
                     target="_blank"
                     rel="noreferrer"
                     className="
-                inline-block
-                text-base text-[#f3f4fe]
-                hover:text-primary
-                leading-loose
-                mb-2
-              "
+                      inline-block
+                      text-base text-[#f3f4fe]
+                      hover:text-primary
+                      leading-loose
+                      mb-2
+                    "
                   >
                     Discord
                   </a>
@@ -217,12 +206,12 @@ const Footer = () => {
                     target="_blank"
                     rel="noreferrer"
                     className="
-                inline-block
-                text-base text-[#f3f4fe]
-                hover:text-primary
-                leading-loose
-                mb-2
-              "
+                      inline-block
+                      text-base text-[#f3f4fe]
+                      hover:text-primary
+                      leading-loose
+                      mb-2
+                    "
                   >
                     Microsoft Teams
                   </a>
@@ -233,12 +222,12 @@ const Footer = () => {
                     target="_blank"
                     rel="noreferrer"
                     className="
-                inline-block
-                text-base text-[#f3f4fe]
-                hover:text-primary
-                leading-loose
-                mb-2
-              "
+                      inline-block
+                      text-base text-[#f3f4fe]
+                      hover:text-primary
+                      leading-loose
+                      mb-2
+                    "
                   >
                     Ping
                   </a>
@@ -249,14 +238,30 @@ const Footer = () => {
                     target="_blank"
                     rel="noreferrer"
                     className="
-                inline-block
-                text-base text-[#f3f4fe]
-                hover:text-primary
-                leading-loose
-                mb-2
-              "
+                      inline-block
+                      text-base text-[#f3f4fe]
+                      hover:text-primary
+                      leading-loose
+                      mb-2
+                    "
                   >
                     Chat Summary
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.livechat.com/marketplace/apps/chat-assistant/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="
+                      inline-block
+                      text-base text-[#f3f4fe]
+                      hover:text-primary
+                      leading-loose
+                      mb-2
+                    "
+                  >
+                    Chat Assistant
                   </a>
                 </li>
               </ul>

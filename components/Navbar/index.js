@@ -205,7 +205,7 @@ const Navbar = ({ isLandingPage }) => {
                         xl:ml-12
                       "
                         >
-                          Docs
+                          Documentation
                         </a>
                       </li>
                     </ul>

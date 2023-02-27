@@ -49,10 +49,10 @@ const SectionTeam = () => {
                   leading-relaxed
                   sm:leading-relaxed
                   text-body-color
+                  px-12
                 "
               >
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+                Making quality software is what we do. Get to know the faces behind SKlabs.
               </p>
             </div>
           </div>
@@ -67,14 +67,14 @@ const SectionTeam = () => {
               <div className="mb-10 wow fadeInUp" data-wow-delay=".1s">
                 <div
                   className="
-                  relative
-                  w-[170px]
-                  h-170px]
-                  rounded-full
-                  z-10
-                  mx-auto
-                  mb-6
-                "
+                    relative
+                    w-[170px]
+                    h-170px]
+                    rounded-full
+                    z-10
+                    mx-auto
+                    mb-6
+                  "
                 >
                   <Image
                     width={170}
@@ -513,15 +513,15 @@ const SectionTeam = () => {
                       href={person.github}
                       rel="noreferrer"
                       className="
-                      text-[#cdced6]
-                      hover:text-primary
-                      w-8
-                      h-8
-                      mx-2
-                      flex
-                      items-center
-                      justify-center
-                    "
+                        text-[#cdced6]
+                        hover:text-primary
+                        w-8
+                        h-8
+                        mx-2
+                        flex
+                        items-center
+                        justify-center
+                      "
                       target="_blank"
                     >
                       <GitHubLogo />
@@ -530,15 +530,15 @@ const SectionTeam = () => {
                       href={person.twitter}
                       rel="noreferrer"
                       className="
-                      text-[#cdced6]
-                      hover:text-primary
-                      w-8
-                      h-8
-                      mx-2
-                      flex
-                      items-center
-                      justify-center
-                    "
+                        text-[#cdced6]
+                        hover:text-primary
+                        w-8
+                        h-8
+                        mx-2
+                        flex
+                        items-center
+                        justify-center
+                      "
                       target="_blank"
                     >
                       <TwitterLogo />
@@ -547,15 +547,15 @@ const SectionTeam = () => {
                       href={person.linkedin}
                       rel="noreferrer"
                       className="
-                      text-[#cdced6]
-                      hover:text-primary
-                      w-8
-                      h-8
-                      mx-2
-                      flex
-                      items-center
-                      justify-center
-                    "
+                        text-[#cdced6]
+                        hover:text-primary
+                        w-8
+                        h-8
+                        mx-2
+                        flex
+                        items-center
+                        justify-center
+                      "
                       target="_blank"
                     >
                       <LinkedinLogo />

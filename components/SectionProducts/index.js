@@ -4,6 +4,26 @@ import SectionApp from "../SectionApp";
 const products = {
   livechat: [
     {
+      name: "Chat Summary",
+      logo: "assets/images/apps/livechat/chat-summary.png",
+      description:
+        "Use artificial intelligence to generate summaries from the chat.",
+      link: "https://www.livechat.com/marketplace/apps/chat-summary/",
+    },
+    {
+      name: "Chat Assistant",
+      logo: "assets/images/apps/livechat/chat-assistant.png",
+      description:
+        "Use artificial intelligence to make your messages more friendly or formal, expand your text, and fix grammar with ease.",
+      link: "https://www.livechat.com/marketplace/apps/chat-summary/",
+    },
+    {
+      name: "PayPal",
+      logo: "assets/images/apps/livechat/paypal.png",
+      description: "Manage your PayPal payments inside LiveChat.",
+      link: "https://www.livechat.com/marketplace/apps/paypal/",
+    },
+    {
       name: "Zoom for LiveChat",
       logo: "assets/images/apps/livechat/zoom.png",
       description:
@@ -28,19 +48,6 @@ const products = {
       description:
         "Send out notifications to various channels and manage them all from one place.",
       link: "https://www.livechat.com/marketplace/apps/ping/",
-    },
-    {
-      name: "PayPal",
-      logo: "assets/images/apps/livechat/paypal.png",
-      description: "Manage your PayPal payments inside LiveChat.",
-      link: "https://www.livechat.com/marketplace/apps/paypal/",
-    },
-    {
-      name: "Chat Summary",
-      logo: "assets/images/apps/livechat/chat-summary.png",
-      description:
-        "Using an artificial intelligence OpenAI generate summary from the chat.",
-      link: "https://www.livechat.com/marketplace/apps/chat-summary/",
     },
   ],
 };
