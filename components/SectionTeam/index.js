@@ -5,7 +5,7 @@ const team = [
   {
     avatar: "/assets/images/team/kasparas-galdikas.jpeg",
     fullName: "Kasparas Galdikas",
-    title: "Cofounder of SKlabs",
+    title: "Co-founder",
     github: "https://github.com/kasparasg",
     twitter: "https://twitter.com/kasparasg",
     linkedin: "https://www.linkedin.com/in/kasparasg/",
@@ -13,7 +13,7 @@ const team = [
   {
     avatar: "/assets/images/team/jakub-sikora.png",
     fullName: "Jakub Sikora",
-    title: "Cofounder of SKlabs",
+    title: "Co-founder",
     github: "https://github.com/jakubsikora",
     twitter: "https://twitter.com/JakubSikoraJS",
     linkedin: "https://www.linkedin.com/in/jbsikora/",
