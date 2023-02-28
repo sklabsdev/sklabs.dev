@@ -15,7 +15,7 @@ const products = {
       logo: "assets/images/apps/livechat/chat-assistant.png",
       description:
         "Use artificial intelligence to make your messages more friendly or formal, expand your text, and fix grammar with ease.",
-      link: "https://www.livechat.com/marketplace/apps/chat-summary/",
+      link: "https://www.livechat.com/marketplace/apps/chat-assistant/",
     },
     {
       name: "PayPal",
