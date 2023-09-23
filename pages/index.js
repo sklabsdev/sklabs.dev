@@ -1,7 +1,6 @@
 import Navbar from "../components/Navbar";
 import SectionHeader from "../components/SectionHeader";
 import SectionProducts from "../components/SectionProducts";
-import SectionTeam from "../components/SectionTeam";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
@@ -32,8 +31,6 @@ export default function Home() {
         />
 
         <SectionProducts />
-
-        <SectionTeam />
 
         <Footer />
       </div>

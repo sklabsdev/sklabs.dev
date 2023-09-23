@@ -31,12 +31,6 @@ const products = {
       link: "https://www.livechat.com/marketplace/apps/zoom-for-livechat/",
     },
     {
-      name: "Discord",
-      logo: "assets/images/apps/livechat/discord.png",
-      description: "Send out notifications to Discord channels.",
-      link: "https://www.livechat.com/marketplace/apps/discord/",
-    },
-    {
       name: "Microsoft Teams",
       logo: "assets/images/apps/livechat/teams.png",
       description: "Send out notifications to Microsoft Teams channels.",

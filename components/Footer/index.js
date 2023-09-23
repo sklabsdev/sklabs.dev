@@ -93,21 +93,6 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#team"
-                    onClick={handleLinkClick}
-                    className="
-                      inline-block
-                      text-base text-[#f3f4fe]
-                      hover:text-primary
-                      leading-loose
-                      mb-2
-                    "
-                  >
-                    Team
-                  </a>
-                </li>
-                <li>
-                  <a
                     href="https://docs.sklabs.dev"
                     target="_blank"
                     rel="noreferrer"
@@ -182,22 +167,6 @@ const Footer = () => {
                     "
                   >
                     Zoom for LiveChat
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.livechat.com/marketplace/apps/discord/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="
-                      inline-block
-                      text-base text-[#f3f4fe]
-                      hover:text-primary
-                      leading-loose
-                      mb-2
-                    "
-                  >
-                    Discord
                   </a>
                 </li>
                 <li>
