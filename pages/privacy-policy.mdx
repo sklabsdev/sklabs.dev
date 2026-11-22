@@ -5,7 +5,7 @@ export const meta = {
   description: "Privacy policy",
 };
 
-_Last updated: February 10, 2023_
+_Last updated: November 22, 2026_
 
 The privacy of your data — and it is your data, not ours! In this policy, we lay out: what data we collect and why; how your data is handled; and your rights to your data. We promise we never sell your data: never have, never will.
 
@@ -15,13 +15,22 @@ This policy applies to all products built and maintained by SKlabs Software Ltd.
 
 Our guiding principle is to collect only what we need. Here’s what that means in practice:
 
-### Identity & access
+### Account details
 
-When you install an app developed by SKlabs Software Ltd, we store your email address to identify you as a customer.
+When you install one of our apps, we store your name, email address and LiveChat licence ID so we can identify you as a customer. We also store the access tokens LiveChat gives us, so the app can work on your behalf.
+
+### App data
+
+Some apps need to store the content they work with:
+
+- **Chat Summary** stores the chat transcripts it summarises, and the summaries, key points, keywords and product insights it creates from them, along with the names and email addresses of the agents in each chat.
+- **Chat Assistant** stores the text you send it and the reply it gives.
+
+We use this data only to provide the app to you.
 
 ### Billing information
 
-We do not store any billing information on our system. This is handled by our partners, such has [https://livechat.com](https://livechat.com), when you purchase one of our apps.
+We do not store any billing information on our system. This is handled by our partners, such as [https://livechat.com](https://livechat.com), when you purchase one of our apps.
 
 ### Geolocation data
 
@@ -45,7 +54,7 @@ We also store any information you volunteer like surveys. Sometimes when we do c
 
 We don’t collect any characteristics of protected classifications including age, race, gender, religion, sexual orientation, gender identity, gender expression, or physical and mental abilities or disabilities. You may provide these data voluntarily, such as if you include a pronoun preference in your email signature when writing into our Support team.
 
-We also do not collect any biometric data. You are given the option to add a picture to your user profile, which could be a real picture of you or a picture of something else that represents you best. We do not extract any information from profile pictures: they are for your use alone.
+We also do not collect any biometric data.
 
 ## When we access or share your information
 
@@ -55,7 +64,7 @@ Our default practice is to not access your information. The only times we’ll e
 
 ## Your rights with respect to your information
 
-At SKlabs Software Ltd Software Ltd, we apply the same data rights to all customers, regardless of their location. Currently some of the most privacy-forward regulations in place are the European Union’s General Data Protection Regulation (“GDPR”) and California Consumer Privacy Act (“CCPA”) in the US. SKlabs Software recognizes all of the rights granted in these regulations, except as limited by applicable law. These rights include:
+At SKlabs Software Ltd, we apply the same data rights to all customers, regardless of their location. Currently some of the most privacy-forward regulations in place are the European Union’s General Data Protection Regulation (“GDPR”) and California Consumer Privacy Act (“CCPA”) in the US. SKlabs Software recognizes all of the rights granted in these regulations, except as limited by applicable law. These rights include:
 
 - **Right to Know.** You have the right to know what personal information is collected, used, shared or sold. We outline both the categories and specific bits of data we collect, as well as how they are used, in this privacy policy.
 - **Right of Access.** This includes your right to access the personal information we gather about you, and your right to obtain information about the sharing, storage, security and processing of that information.
@@ -74,25 +83,27 @@ If you are in the EU, you can identify your specific authority to file a complai
 
 ## How we secure your data
 
-All data is encrypted via [SSL/TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) when transmitted from our servers to your browser.
+All data is encrypted via [SSL/TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) when transmitted between our servers, LiveChat and your browser. Chat transcripts, summaries, insights and Chat Assistant messages are also encrypted when stored.
 
 ## Data retention and deletion of data
 
-Generally, we retain your Personal Information for as long as you have our apps installed. When you uninstall one of our apps, the data is trashed and then completely removed after 60 days.
+We keep your data for as long as you have our app installed, except chat transcripts, which Chat Summary deletes 30 days after summarising them. When you uninstall an app, its data is permanently deleted after 14 days. If you reinstall within that time, your data is restored.
+
+You can ask us to delete your data sooner by emailing [support@sklabs.dev](mailto:support@sklabs.dev).
 
 ## Location of site and data
 
-Our products and other web properties are operated in the United Kingdom.
+SKlabs Software Ltd is based in the United Kingdom. Our servers are hosted by Hetzner in the European Union.
 
-### We commit to resolving all complaints
+### Complaints
 
-In compliance with the EU-US Privacy Shield Principles and the Swiss-US Privacy Shield Principles, we commit to resolve complaints about your privacy and our collection or use of your personal information. European Union, United Kingdom, or Swiss individuals with inquiries or complaints regarding this privacy policy should contact SKlabs Software Ltd at support@sklabs.dev.
-
-If your EU-US Privacy Shield complaint cannot be resolved through these described channels, under certain conditions, you may invoke binding arbitration for some residual claims not resolved by other redress mechanisms. To learn more, please view the Privacy Shield Annex 1 at [https://www.privacyshield.gov/article?id=ANNEX-I-introduction](https://www.privacyshield.gov/article?id=ANNEX-I-introduction).
+If you have a concern about how we handle your data, please contact us at [support@sklabs.dev](mailto:support@sklabs.dev) and we will do our best to resolve it. In the UK you can also complain to the [Information Commissioner's Office](https://ico.org.uk/make-a-complaint/).
 
 ## Data sharing
 
-Some of our integrations, such as Chat Summary, share LiveChat data with OpenAI to support the features we offer to our customers. More details can be found on [Chat Summary documentation](https://docs.sklabs.dev/livechat-apps/chat-summary#privacy).
+Chat Summary and Chat Assistant send chat content to OpenAI to generate their results. OpenAI does not use this data to train its models, and may keep it for up to 30 days to monitor for abuse before deleting it. More details are in [OpenAI's API data policy](https://openai.com/enterprise-privacy/).
+
+We don't share your data with anyone else, other than the services we use to run our apps, such as our hosting provider.
 
 ## Changes & questions
 
